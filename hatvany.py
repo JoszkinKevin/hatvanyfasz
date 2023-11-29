@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-hatvanykitevo = st.slider(label'hatvany (2 ^ )', min_value=0, max_value = 16)
+hatvanykitevo = st.slider(label='hatvany (2 ^ )', min_value=0, max_value = 16)
 
 st.write(2**hatvanykitevo)
 
