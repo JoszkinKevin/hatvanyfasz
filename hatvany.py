@@ -10,5 +10,5 @@ data = {
     'x': [i**2 for i in range(hatvanykitevo)] }
 
 dataframe =pd.DataFrame(data)
-st.write("szex")
+st.write(eredmény")
 st.line_chart(dataframe)
